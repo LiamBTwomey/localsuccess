@@ -2,12 +2,10 @@ import React from "react";
 
 const Home = () => (
   <div>
-    <h1 className="title is-1">This is the Home Page</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
-      risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros
-      nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum,
-      lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
+    <h1 className="title is-1" style={{color: 'black'}}>HOME</h1>
+    <p style={{color: 'black'}}>
+      Hello, my name is Liam B. Twomey, welcome to my site. I am a ReactJS Developer that lives in the Greater Toronto Area. Please use the navigation above to view the sites I have made, the tools I use  and my contact information. 
+      Thank you.  
     </p>
   </div>
 );

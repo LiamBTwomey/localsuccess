@@ -5,6 +5,7 @@ import Header from './Components/Header.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Contact from "./Pages/Contact.js";
 import Home from "./Pages/home.js";
+import Footer from './Components/Footer.js';
 
 function App() {
   return (
@@ -14,10 +15,9 @@ function App() {
     <Routes>
     <Route exact path="/" element={<Home />} />
     <Route exact path="/contact" element={<Contact />} />
-  
-
     </Routes>
     </div>
+    <Footer />
 </BrowserRouter>  
 
   );

@@ -22,20 +22,20 @@ class Header extends Component {
           </Nav>
         </Container>
       </Navbar>
-      <Navbar bg="black" variant="dark">
-        <Container>
-            <Nav.Link style={{color: 'gray'}} href="#home">Home</Nav.Link>
-            <Nav.Link style={{color: 'gray'}} href="#features">Features</Nav.Link>
-            <Nav.Link as={Link} eventKey="/contact" style={{color: 'gray'}} to='/contact'>Contact</Nav.Link>
+      <Navbar bg="black" variant="dark" style={{alignItems: 'start'}}>
+        <Container style={{flexDirection: 'column', alignItems: 'start'}}>
+            <Nav.Link style={{color: 'white', fontSize: 'xx-small'}} href="#h">EMAIL</Nav.Link>
+            <Nav.Link style={{color: 'white', fontSize: 'xx-small'}} href="#features">GITHUB</Nav.Link>
+            <Nav.Link as={Link} eventKey="/contact" style={{color: 'white', fontSize: 'xx-small'}} to='/contact'>CONTACT</Nav.Link>
   
         </Container>
       </Navbar>
-      <Navbar bg="black" variant="dark">
-        <Container>
-        <Nav.Link style={{color: 'gray'}} href="#home">Home</Nav.Link>
-        <Nav.Link style={{color: 'gray'}} href="#features">Features</Nav.Link>
-        <Nav.Link style={{color: 'gray'}} href="#pricing">Pricing</Nav.Link>
-
+      <Navbar bg="black" variant="dark" style={{padding: '0px'}}>
+        <Container className="justify-content-start" style={{padding: '10px'}}>
+            <Nav.Link className="pb-0" as={Link} eventKey="/" style={{color: 'white', padding: '10px'}} to='/'>Home</Nav.Link>
+            <Nav.Link className="pb-0" as={Link} style={{color: 'white', padding: '10px'}} to='/portfolio'>Portfolio</Nav.Link>
+            <Nav.Link className="pb-0" as={Link} style={{color: 'white', padding: '10px'}} to='/Tools'>Tools</Nav.Link>
+            <Nav.Link  className="pb-0" as={Link} eventKey="/contact" style={{color: 'white', padding: '10px'}} to='/contact'>Contact</Nav.Link>
   
         </Container>
       </Navbar>
