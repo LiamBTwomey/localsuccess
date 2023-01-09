@@ -34,7 +34,7 @@ class Header extends Component {
         <Container className="justify-content-start" style={{padding: '10px'}}>
             <Nav.Link className="pb-0" as={Link} eventKey="/" style={{color: 'white', padding: '10px'}} to='/'>Home</Nav.Link>
             <Nav.Link className="pb-0" as={Link} style={{color: 'white', padding: '10px'}} to='/portfolio'>Portfolio</Nav.Link>
-            <Nav.Link className="pb-0" as={Link} style={{color: 'white', padding: '10px'}} to='/Tools'>Tools</Nav.Link>
+            <Nav.Link className="pb-0" as={Link} style={{color: 'white', padding: '10px'}} to='/tools'>Tools</Nav.Link>
             <Nav.Link  className="pb-0" as={Link} eventKey="/contact" style={{color: 'white', padding: '10px'}} to='/contact'>Contact</Nav.Link>
   
         </Container>
