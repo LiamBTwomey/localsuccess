@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from './public/LiamBTwomeyLogo_1.jpg';
 import Contact from "../Pages/Contact.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import  Home  from '../Pages/home.js';
+import  Home  from '../Pages/Home.js';
 import { Link, useLocation } from 'react-router-dom';
 
 
@@ -18,7 +18,7 @@ class Header extends Component {
         <Container>
           <Navbar.Brand style={{fontFamily: 'Impact', fontSize: 'xx-large'}} href="#home"><i>Liam B. Twomey</i></Navbar.Brand>
            <Nav className="me-auto">
-            <Nav.Link className="pb-0" style={{color: 'white', marginBottom: "0px"}} disabled>ReactJS Developer</Nav.Link>
+            <Nav.Link className="pb-0" style={{color: 'white', marginBottom: "0px"}} disabled>ReactJS Student</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
