@@ -4,7 +4,7 @@ import './App.css';
 import Header from './Components/Header.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-import Home from "./Pages/Home.js";
+import Home from "./Pages/home.js";
 import Portfolio from "./Pages/Portfolio.js"
 import Tools from "./Pages/Tools.js";
 import Contact from "./Pages/Contact.js";

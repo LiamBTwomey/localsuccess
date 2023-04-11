@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from './public/LiamBTwomeyLogo_1.jpg';
 import Contact from "../Pages/Contact.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import  Home  from '../Pages/Home.js';
+import  Home  from '../Pages/home.js';
 import { Link, useLocation } from 'react-router-dom';
 
 
